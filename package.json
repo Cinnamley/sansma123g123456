@@ -1,0 +1,13 @@
+{
+  "name": "cin-github-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node scripts/generate-assets.mjs",
+    "start": "node server.mjs",
+    "lint": "node --check server.mjs && node --check scripts/generate-assets.mjs && node --check scripts/markdown.mjs",
+    "test": "node --test scripts/generate-assets.test.mjs"
+  }
+}

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="126" viewBox="0 0 900 126" role="img" aria-label="Minecraft modding and graphics pipeline: 3D and Rigging, Mod Architecture, Shader Pass, Runtime Tuning">
+  <defs>
+    <style>
+      .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+  <g>
+    <rect x="0.5" y="2" width="203" height="122" rx="10" fill="#121821" stroke="#262f3d" />
+    <text x="18.5" y="28" class="mono" font-size="12" font-weight="600" fill="#ea863e">01</text>
+    <g transform="translate(169.5, 15)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="8,1 15,5 15,12 8,16 1,12 1,5" stroke="#818f9f" />
+        <polyline points="1,5 8,9 15,5" stroke="#818f9f" />
+        <line x1="8" y1="9" x2="8" y2="16" stroke="#ea863e" />
+      </g>
+    <text x="18.5" y="60" class="sans" font-size="15" font-weight="600" fill="#eef2f6">3D &amp; Rigging</text>
+    <text x="18.5" y="85" class="mono" font-size="12" font-weight="500" fill="#9aa5b4">Blockbench · Blender</text>
+    <text x="18.5" y="106" class="sans" font-size="12" font-weight="400" fill="#818f9f">Custom meshes &amp; keyframes</text>
+  </g>
+  <g stroke="#4c596b" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="209.5" y1="63" x2="226.5" y2="63" />
+      <polyline points="222,59.5 226.5,63 222,66.5" fill="none" />
+    </g>
+  <g>
+    <rect x="232.5" y="2" width="203" height="122" rx="10" fill="#121821" stroke="#262f3d" />
+    <text x="250.5" y="28" class="mono" font-size="12" font-weight="600" fill="#ea863e">02</text>
+    <g transform="translate(401.5, 15)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="5,4 1,8.5 5,13" stroke="#818f9f" />
+        <polyline points="11,4 15,8.5 11,13" stroke="#818f9f" />
+        <line x1="9.5" y1="2.5" x2="6.5" y2="14.5" stroke="#ea863e" />
+      </g>
+    <text x="250.5" y="60" class="sans" font-size="15" font-weight="600" fill="#eef2f6">Mod Architecture</text>
+    <text x="250.5" y="85" class="mono" font-size="12" font-weight="500" fill="#9aa5b4">Java · NeoForge</text>
+    <text x="250.5" y="106" class="sans" font-size="12" font-weight="400" fill="#818f9f">Combat &amp; gameplay systems</text>
+  </g>
+  <g stroke="#4c596b" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="441.5" y1="63" x2="458.5" y2="63" />
+      <polyline points="454,59.5 458.5,63 454,66.5" fill="none" />
+    </g>
+  <g>
+    <rect x="464.5" y="2" width="203" height="122" rx="10" fill="#121821" stroke="#262f3d" />
+    <text x="482.5" y="28" class="mono" font-size="12" font-weight="600" fill="#ea863e">03</text>
+    <g transform="translate(633.5, 15)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="8,1.5 15,14 1,14" stroke="#818f9f" />
+        <line x1="1" y1="7.5" x2="6.2" y2="7.5" stroke="#ea863e" />
+        <line x1="9.8" y1="7.5" x2="15.5" y2="5" stroke="#ea863e" />
+        <line x1="10.8" y1="9.5" x2="15.5" y2="9.5" stroke="#818f9f" opacity="0.7" />
+      </g>
+    <text x="482.5" y="60" class="sans" font-size="15" font-weight="600" fill="#eef2f6">Shader Pass</text>
+    <text x="482.5" y="85" class="mono" font-size="12" font-weight="500" fill="#9aa5b4">GLSL · OpenGL</text>
+    <text x="482.5" y="106" class="sans" font-size="12" font-weight="400" fill="#818f9f">Lighting &amp; particle VFX</text>
+  </g>
+  <g stroke="#4c596b" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="673.5" y1="63" x2="690.5" y2="63" />
+      <polyline points="686,59.5 690.5,63 686,66.5" fill="none" />
+    </g>
+  <g>
+    <rect x="696.5" y="2" width="203" height="122" rx="10" fill="#121821" stroke="#262f3d" />
+    <text x="714.5" y="28" class="mono" font-size="12" font-weight="600" fill="#ea863e">04</text>
+    <g transform="translate(865.5, 15)" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="1.5" y1="14" x2="15" y2="14" stroke="#818f9f" opacity="0.55" />
+        <path d="M 2 13 C 5.5 13, 6 3, 10 3 C 12.5 3, 13.5 7, 15 7" stroke="#ea863e" />
+        <circle cx="10" cy="3" r="1.5" fill="#ea863e" stroke="none" />
+      </g>
+    <text x="714.5" y="60" class="sans" font-size="15" font-weight="600" fill="#eef2f6">Runtime Tuning</text>
+    <text x="714.5" y="85" class="mono" font-size="12" font-weight="500" fill="#9aa5b4">Mixin · Profiling</text>
+    <text x="714.5" y="106" class="sans" font-size="12" font-weight="400" fill="#818f9f">Frame pacing &amp; game feel</text>
+  </g>
+  
+</svg>

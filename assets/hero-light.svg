@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Cin (@sansma123g123456) — Java  ·  NeoForge &amp; Forge  ·  GLSL Shaders">
+  <defs>
+    <linearGradient id="gridFade-light" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="32%" stop-color="#ffffff" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.9" />
+    </linearGradient>
+    <mask id="rightGridMask-light">
+      <rect x="500" y="0" width="400" height="280" fill="url(#gridFade-light)" />
+    </mask>
+    <radialGradient id="coreGlow-light" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#b84714" stop-opacity="0.11" />
+      <stop offset="100%" stop-color="#b84714" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="frameClip-light">
+      <rect x="1" y="1" width="898" height="278" rx="11" />
+    </clipPath>
+    <style>
+      .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <!-- Outer container -->
+  <rect x="0.5" y="0.5" width="899" height="279" rx="12" fill="#f8fafc" stroke="#d0d7de" />
+
+  <g clip-path="url(#frameClip-light)">
+    <!-- Subtle architectural grid on right canvas -->
+    <g stroke="#e7edf3" stroke-width="1" mask="url(#rightGridMask-light)" opacity="0.72">
+      <line x1="524" y1="14" x2="524" y2="266" />
+      <line x1="548" y1="14" x2="548" y2="266" />
+      <line x1="572" y1="14" x2="572" y2="266" />
+      <line x1="596" y1="14" x2="596" y2="266" />
+      <line x1="620" y1="14" x2="620" y2="266" />
+      <line x1="644" y1="14" x2="644" y2="266" />
+      <line x1="668" y1="14" x2="668" y2="266" />
+      <line x1="692" y1="14" x2="692" y2="266" />
+      <line x1="716" y1="14" x2="716" y2="266" />
+      <line x1="740" y1="14" x2="740" y2="266" />
+      <line x1="764" y1="14" x2="764" y2="266" />
+      <line x1="788" y1="14" x2="788" y2="266" />
+      <line x1="812" y1="14" x2="812" y2="266" />
+      <line x1="836" y1="14" x2="836" y2="266" />
+      <line x1="860" y1="14" x2="860" y2="266" />
+      <line x1="504" y1="26" x2="886" y2="26" />
+      <line x1="504" y1="50" x2="886" y2="50" />
+      <line x1="504" y1="74" x2="886" y2="74" />
+      <line x1="504" y1="98" x2="886" y2="98" />
+      <line x1="504" y1="122" x2="886" y2="122" />
+      <line x1="504" y1="146" x2="886" y2="146" />
+      <line x1="504" y1="170" x2="886" y2="170" />
+      <line x1="504" y1="194" x2="886" y2="194" />
+      <line x1="504" y1="218" x2="886" y2="218" />
+      <line x1="504" y1="242" x2="886" y2="242" />
+    </g>
+
+    <!-- Soft ambient shader reflection behind mesh -->
+    <circle cx="716" cy="144" r="88" fill="url(#coreGlow-light)" />
+
+    <!-- Concentric SDF / shader field arcs -->
+    <circle cx="716" cy="144" r="84" fill="none" stroke="#e5eaf0" stroke-width="1" stroke-dasharray="3 5" />
+    <circle cx="716" cy="144" r="102" fill="none" stroke="#e5eaf0" stroke-width="1" opacity="0.65" />
+
+    <!-- Coordinate axes (subtle) -->
+    <g stroke="#c8d1dc" stroke-width="1" opacity="0.9">
+      <line x1="716" y1="144" x2="812.99" y2="200" />
+      <line x1="716" y1="144" x2="716" y2="32" />
+      <line x1="716" y1="144" x2="619.01" y2="200" />
+    </g>
+    <g class="mono" font-size="10.5" fill="#5f6b7a">
+      <text x="819.0" y="204.0">X</text>
+      <text x="712.5" y="25.0">Y</text>
+      <text x="605.0" y="204.0">Z</text>
+    </g>
+
+    <!-- Outer voxel bounding cube: rear hidden edges -->
+    <g stroke="#c8d1dc" stroke-width="1" stroke-dasharray="3 3">
+      <line x1="716" y1="144" x2="716" y2="52" />
+      <line x1="716" y1="144" x2="795.67" y2="190" />
+      <line x1="716" y1="144" x2="636.33" y2="190" />
+    </g>
+
+    <!-- Inner faceted shader core -->
+    <g>
+      <polygon points="716,109.2 690.02,129 690.02,159" fill="#6b7c93" fill-opacity="0.14" stroke="#2c3540" stroke-opacity="0.5" stroke-width="1" stroke-linejoin="round" />
+      <polygon points="716,109.2 690.02,159 741.98,159" fill="#c85019" fill-opacity="0.20" stroke="#b84714" stroke-opacity="0.88" stroke-width="1.25" stroke-linejoin="round" />
+      <polygon points="716,109.2 741.98,159 741.98,129" fill="#c85019" fill-opacity="0.30" stroke="#d35a22" stroke-opacity="0.95" stroke-width="1.35" stroke-linejoin="round" />
+      <polygon points="716,178.8 690.02,129 690.02,159" fill="#3c4858" fill-opacity="0.18" stroke="#2c3540" stroke-opacity="0.38" stroke-width="1" stroke-linejoin="round" />
+      <polygon points="716,178.8 690.02,159 741.98,159" fill="#6b7c93" fill-opacity="0.12" stroke="#2c3540" stroke-opacity="0.48" stroke-width="1" stroke-linejoin="round" />
+
+      <!-- Surface normal tick N -->
+      <line x1="733.32" y1="132.4" x2="759.32" y2="114.4" stroke="#d35a22" stroke-width="1.2" stroke-dasharray="2 2" />
+      <circle cx="733.32" cy="132.4" r="2" fill="#d35a22" />
+      <text x="764.3" y="117.4" class="mono" font-size="10" font-weight="600" fill="#d35a22">N</text>
+    </g>
+
+    <!-- Outer voxel bounding cube: front wireframe edges -->
+    <g stroke="#7c8896" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="716" y1="52" x2="795.67" y2="98" />
+      <line x1="716" y1="52" x2="636.33" y2="98" />
+      <line x1="795.67" y1="98" x2="716" y2="144" />
+      <line x1="636.33" y1="98" x2="716" y2="144" />
+      <line x1="716" y1="144" x2="716" y2="236" />
+      <line x1="795.67" y1="98" x2="795.67" y2="190" />
+      <line x1="636.33" y1="98" x2="636.33" y2="190" />
+      <line x1="795.67" y1="190" x2="716" y2="236" />
+      <line x1="636.33" y1="190" x2="716" y2="236" />
+    </g>
+
+    <!-- Precision vertex markers -->
+    <g fill="#f8fafc" stroke="#7c8896" stroke-width="1.25">
+      <circle cx="716" cy="52" r="2.2" />
+      <circle cx="795.67" cy="98" r="2.2" />
+      <circle cx="636.33" cy="98" r="2.2" />
+      <circle cx="716" cy="144" r="2.2" />
+      <circle cx="795.67" cy="190" r="2.2" />
+      <circle cx="636.33" cy="190" r="2.2" />
+      <circle cx="716" cy="236" r="2.2" />
+    </g>
+
+    <!-- Directional light ray L -->
+    <g stroke="#b84714" stroke-width="1.35" stroke-linecap="round">
+      <line x1="828" y1="58" x2="772" y2="92" />
+      <polyline points="779.5,90.5 772,92 775.5,84.5" fill="none" />
+    </g>
+    <text x="836" y="61" class="mono" font-size="10.5" font-weight="600" fill="#b84714">L</text>
+
+    <!-- Subtle diagram caption -->
+    <text x="876" y="264" text-anchor="end" class="mono" font-size="10.5" fill="#5f6b7a">isometric mesh · glsl lighting</text>
+
+    <!-- Left Editorial Identity Block -->
+    <text x="44" y="58" class="mono" font-size="12.5" font-weight="500" fill="#b84714">Java  ·  NeoForge &amp; Forge  ·  GLSL Shaders</text>
+
+    <text x="44" y="120" class="sans" font-size="54" font-weight="700" letter-spacing="-1.6" fill="#161b22">Cin<tspan dx="16" dy="-4" class="mono" font-size="15" font-weight="400" letter-spacing="0" fill="#525d6b">@sansma123g123456</tspan></text>
+
+    <text x="44" y="158" class="sans" font-size="15.5" font-weight="400" fill="#525d6b">Building responsive combat mechanics, custom 3D</text>
+    <text x="44" y="182" class="sans" font-size="15.5" font-weight="400" fill="#525d6b">entity meshes, and OpenGL shaders for Minecraft.</text>
+
+    <line x1="44" y1="210" x2="462" y2="210" stroke="#d0d7de" stroke-width="1" />
+
+    <text x="44" y="238" class="mono" font-size="12" font-weight="400" fill="#5f6b7a">Game Mechanics  ·  Entity Animation  ·  Render Pipelines</text>
+  </g>
+</svg>
